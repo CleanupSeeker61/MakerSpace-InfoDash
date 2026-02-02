@@ -1,0 +1,38 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+  cursor: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide iframe {
+      iframe[src^="https://bahn.expert/Heilbronn%20Neckar-Turm%2FK.-S.-Pl"]
+      width: 100%;
+      height: 100%;
+      border: none;
+      pointer-events: none; /* Disable interaction until clicked */
+      zoom: 150%;
+      background-color: #fafafa; 
+ }
+
+.test1 {
+  iframe[src^="https://bahn.expert/Heilbronn%20Neckar-Turm%2FK.-S.-Pl"] {
+ border: 2px dashed green;
+
+
+    }
