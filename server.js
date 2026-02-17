@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const PORT = 56470;
 
-// Statische Dateien aus dem Projektordner serven
+// Statische Dateien aus dem Projektordner 
 app.use(express.static(__dirname));
 
 // Route: Liste der Bilder
